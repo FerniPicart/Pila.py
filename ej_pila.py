@@ -1,4 +1,4 @@
-from tda_dinamico import Pila, pila_vacia, desapilar, apilar, tamanio, cima
+from tda_dinamico_pila import Pila, pila_vacia, desapilar, apilar, tamanio, cima
 from random import randint, choice
 
 
@@ -473,7 +473,6 @@ Ordena elementos por su 2da caracteristica, en este caso el peso de los objetos 
 """
 pila_aux = Pila()
 pila_ordenada = Pila()
-ordenado = False
 
 while (not pila_vacia(pila)):
     aux = desapilar(pila)
